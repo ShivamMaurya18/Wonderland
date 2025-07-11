@@ -1,0 +1,41 @@
+/* Align dropdown items vertically & style them */
+.navbar .dropdown-menu {
+  background-color: white;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+}
+
+.navbar .dropdown-item {
+  font-weight: 500;
+  padding: 10px 20px;
+  color: #000;
+  transition: background-color 0.2s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Optional: color adjustment for dropdown toggle links */
+.nav-link-custom > .dropdown-toggle {
+  color: white !important;
+}
+
+.navbar-logo {
+  font-family: 'Times New Roman', cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #ebeaee, #eceaeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s ease;
+  margin-right: 100%; /* Pushes it to the left in Bootstrap */
+  cursor: pointer;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

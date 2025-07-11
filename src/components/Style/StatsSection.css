@@ -1,0 +1,11 @@
+.stats-section {
+  background-color: #1e1e1e; /* dark background */
+}
+
+.stats-section h2 {
+  font-size: 3.5rem;
+}
+
+.stats-section p {
+  font-size: 1rem;
+}

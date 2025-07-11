@@ -1,0 +1,27 @@
+.ride-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.ride-image {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.ride-overlay {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin: -30px auto 10px;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+.card-body {
+  padding-top: 1rem;
+}

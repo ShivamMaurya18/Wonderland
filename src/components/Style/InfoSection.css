@@ -1,0 +1,31 @@
+.info-section {
+  background-color: #fff;
+}
+
+.info-card {
+  background-color: #ece9e9;
+  border: 1px solid #333131;
+  transition: all 0.3s ease;
+  text-align: left;
+  border-radius: 12px;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-number {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #9aa3ac;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.info-icon {
+  z-index: 1;
+}

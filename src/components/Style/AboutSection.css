@@ -1,0 +1,20 @@
+.about-section .col-md-6 + .col-md-6 {
+  padding-left: 80px; /* or margin-left */
+}
+
+.custom-readmore-btn {
+  background-color: #6b0f1a;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.custom-readmore-btn:hover {
+  background-color: #500c15;
+}
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
